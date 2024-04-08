@@ -33,7 +33,7 @@ const Services = ({ data }) => {
   return (
     <section className="bg-blue-300 py-16"> {/* Use blue color */}
       <div className="container mx-auto max-w-[1170px] px-4">
-        <h1 className="text-4xl font-bold text-center mb-8 text-white">{title}</h1> {/* Use white text color */}
+        <h1 className="text-4xl font-bold text-center mb-8">{title}</h1> {/* Use white text color */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
           {services.map((service, index) => (
